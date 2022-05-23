@@ -3,3 +3,5 @@
 # def home_page(request):
 #     return render(request, 'home.html')
 
+def home_page():
+    pass
