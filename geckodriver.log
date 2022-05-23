@@ -202,3 +202,32 @@ Read port: 62248
 console.error: services.settings: 
   main/quicksuggest Signature failed  TypeError: NetworkError: Network request failed
 JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1653336923192	geckodriver	INFO	Listening on 127.0.0.1:62298
+1653336926227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileCL1fAc"
+1653336926634	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileCL1fAc\\search.json.mozlz4", (void 0)))
+1653336928974	Marionette	INFO	Listening on port 62327
+Read port: 62327
+1653336929070	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653336929183	Marionette	INFO	Stopped listening on port 62327
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1653339225665	geckodriver	INFO	Listening on 127.0.0.1:62640
+1653339228738	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileEY3LlL"
+1653339229124	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileEY3LlL\\search.json.mozlz4", (void 0)))
+1653339231429	Marionette	INFO	Listening on port 62670
+Read port: 62670
+1653339231464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653339231576	Marionette	INFO	Stopped listening on port 62670
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+1653339298439	geckodriver	INFO	Listening on 127.0.0.1:62684
+1653339301487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofile8uwxi9"
+1653339301886	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofile8uwxi9\\search.json.mozlz4", (void 0)))
+1653339304234	Marionette	INFO	Listening on port 62714
+Read port: 62714
+1653339304340	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653339304513	Marionette	INFO	Stopped listening on port 62714
+JavaScript error: resource://gre/modules/TerminatorTelemetry.jsm, line 71: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
