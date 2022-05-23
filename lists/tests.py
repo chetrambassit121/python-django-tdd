@@ -1,74 +1,23 @@
-# # https://www.obeythetestinggoat.com/book/chapter_unit_test_first_view.html
-
-# from django.test import TestCase
-
-# # Create your tests here.
-
-# class SmokeTest(TestCase):        # this test was made to fail 
-
-#     def test_bad_maths(self):
-#         self.assertEqual(1 + 1, 3)
-
-
-
-
-
-# from django.urls import resolve
-# from django.test import TestCase
-# from lists.views import home_page  
-
-# class HomePageTest(TestCase):
-
-#     def test_root_url_resolves_to_home_page_view(self):
-#         found = resolve('/')  
-#         self.assertEqual(found.func, home_page)  
-
-
-
-
-
-
-
 from django.urls import resolve
 from django.test import TestCase
-from django.http import HttpRequest
-
-from lists.views import home_page
-
+from lists.views import home_page  
 
 class HomePageTest(TestCase):
 
     def test_root_url_resolves_to_home_page_view(self):
-        found = resolve('/')
-        self.assertEqual(found.func, home_page)
-
+        found = resolve('/')  
+        self.assertEqual(found.func, home_page)  
 
     def test_home_page_returns_correct_html(self):
-        request = HttpRequest()  
-        response = home_page(request)  
+        response = self.client.get('/')  
+
         html = response.content.decode('utf8')  
-        self.assertTrue(html.startswith('<html>'))  
-        self.assertIn('<title>To-Do lists</title>', html)  
-        self.assertTrue(html.endswith('</html>'))  
+        self.assertTrue(html.startswith('<html>'))
+        self.assertIn('<title>To-Do lists</title>', html)
+        self.assertTrue(html.strip().endswith('</html>'))
 
-
-
-
-
-
-
-
-        
-# from django.urls import resolve
-# from django.urls import Resolver404, resolve, reverse
-# from django.test import TestCase
-# from lists.views import lists_page  
-
-# class ListsPageTest(TestCase):
-
-#     def test_root_url_resolves_to_lists_page_view(self):
-#         found = resolve('lists_page/')  
-#         self.assertEqual(found.func, lists_page)  
+        self.assertTemplateUsed(response, 'home.html')  
+        # self.assertTemplateUsed(response, 'wrong.html')
 
 
 
