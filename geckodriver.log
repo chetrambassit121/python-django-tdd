@@ -439,3 +439,12 @@ Read port: 50068
 1653412026332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
 1653412027660	Marionette	INFO	Stopped listening on port 50068
+1653412596041	geckodriver	INFO	Listening on 127.0.0.1:50174
+1653412599072	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileUt3vxB"
+1653412599444	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileUt3vxB\\search.json.mozlz4", (void 0)))
+1653412601711	Marionette	INFO	Listening on port 50203
+Read port: 50203
+1653412601800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
+1653412603110	Marionette	INFO	Stopped listening on port 50203
