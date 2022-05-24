@@ -506,3 +506,24 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
+1653425264881	geckodriver	INFO	Listening on 127.0.0.1:52353
+1653425267958	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilerKKNno"
+1653425268703	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilerKKNno\\search.json.mozlz4", (void 0)))
+1653425273797	Marionette	INFO	Listening on port 52385
+Read port: 52385
+1653425273918	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653425273956	Marionette	INFO	Stopped listening on port 52385
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653425406621	geckodriver	INFO	Listening on 127.0.0.1:52411
+1653425409708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileizviy6"
+1653425410455	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileizviy6\\search.json.mozlz4", (void 0)))
+1653425419808	Marionette	INFO	Listening on port 52453
+Read port: 52453
+1653425419950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:52410"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:52410"
+1653425423263	Marionette	INFO	Stopped listening on port 52453
