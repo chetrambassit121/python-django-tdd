@@ -448,3 +448,25 @@ Read port: 50203
 1653412601800	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
 1653412603110	Marionette	INFO	Stopped listening on port 50203
+1653412850527	geckodriver	INFO	Listening on 127.0.0.1:50266
+1653412853583	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileK8aKC5"
+1653412853971	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileK8aKC5\\search.json.mozlz4", (void 0)))
+1653412856450	Marionette	INFO	Listening on port 50296
+Read port: 50296
+1653412856522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
+1653412857838	Marionette	INFO	Stopped listening on port 50296
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653412934045	geckodriver	INFO	Listening on 127.0.0.1:50338
+1653412937082	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilebgbUSN"
+1653412937448	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilebgbUSN\\search.json.mozlz4", (void 0)))
+1653412939756	Marionette	INFO	Listening on port 50368
+Read port: 50368
+1653412939803	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:8000"
+1653412942208	Marionette	INFO	Stopped listening on port 50368
