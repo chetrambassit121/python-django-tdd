@@ -2,6 +2,8 @@ from django.urls import resolve
 from django.test import TestCase
 from lists.views import home_page  
 
+from lists.models import Item
+
 class HomePageTest(TestCase):
 
     def test_root_url_resolves_to_home_page_view(self):
@@ -30,40 +32,29 @@ class HomePageTest(TestCase):
         self.assertTemplateUsed(response, 'home.html')
 
 
+class ItemModelTest(TestCase):
+
+    def test_saving_and_retrieving_items(self):
+        first_item = Item()
+        first_item.text = 'The first (ever) list item'
+        first_item.save()
+
+        second_item = Item()
+        second_item.text = 'Item the second'
+        second_item.save()
+
+        saved_items = Item.objects.all()
+        self.assertEqual(saved_items.count(), 2)
+
+        first_saved_item = saved_items[0]
+        second_saved_item = saved_items[1]
+        self.assertEqual(first_saved_item.text, 'The first (ever) list item')
+        self.assertEqual(second_saved_item.text, 'Item the second')
 
 
 
 
-# from django.urls import resolve
-# from django.urls import Resolver404, resolve, reverse
-# from django.test import TestCase
-# from lists.views import lists_page 
-# from django.http import HttpResponse, HttpRequest
 
-# class ListsPageTests(TestCase):
-#     def test_url_exists_at_correct_location(self):
-#         response = self.client.get("/lists/home/")
-#         self.assertEqual(response.status_code, 200)
 
-#     def test_url_available_by_name(self):  
-#         response = self.client.get(reverse("home"))
-#         self.assertEqual(response.status_code, 200)
-
-#     def test_template_name_correct(self):  
-#         response = self.client.get(reverse("home"))
-#         self.assertTemplateUsed(response, "home.html")
-
-#     def test_template_content(self):
-#         response = self.client.get(reverse("home"))
-#         self.assertContains(response, '<html><title>To-Do lists</title></html>')
-#         self.assertNotContains(response, "Not on the page")
-
-#     def test_lists_page_returns_correct_html(self): # another way to test content on lists_page
-#         request = HttpRequest()  
-#         response = lists_page(request)  
-#         html = response.content.decode('utf8')  
-#         self.assertTrue(html.startswith("<html>"))
-#         self.assertIn('<title>To-Do lists</title>', html)  
-#         self.assertTrue(html.endswith('</html>'))  
 
 
