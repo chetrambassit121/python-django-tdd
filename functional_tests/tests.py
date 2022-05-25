@@ -156,8 +156,9 @@ class NewVisitorTest(LiveServerTestCase):
         # Satisfied, they both go back to sleep
 
 
-    # intentional error 
-    self.fail('Finish the test!')
+    def fail(self):
+        # intentional error 
+        self.fail('Finish the test!')
 
 
 
