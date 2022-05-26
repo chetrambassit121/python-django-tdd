@@ -31,7 +31,7 @@ class NewVisitorTest(StaticLiveServerTestCase):
             except (AssertionError, WebDriverException) as e:
                 if time.time() - start_time > MAX_WAIT:
                     raise e
-                time.sleep(1.5)
+                time.sleep(5)
 
 
     def test_can_start_a_list_for_one_user(self):
