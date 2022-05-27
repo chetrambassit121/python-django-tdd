@@ -6,6 +6,7 @@ import time
 
 MAX_WAIT = 10
 
+# STAGING_SERVER=chets-python-django-tdd.herokuapp.com ./manage.py test functional_tests
 
 
 class FunctionalTest(StaticLiveServerTestCase):
