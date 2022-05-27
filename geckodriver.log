@@ -9160,3 +9160,42 @@ Read port: 59113
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:58951"
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:58951"
 1653668291741	Marionette	INFO	Stopped listening on port 59113
+1653674991905	geckodriver	INFO	Listening on 127.0.0.1:54830
+1653674994982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileEUr9RC"
+1653674995448	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileEUr9RC\\search.json.mozlz4", (void 0)))
+1653674997845	Marionette	INFO	Listening on port 54857
+Read port: 54857
+1653674998074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:54829/static/list.js, line 2: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:54829"
+JavaScript error: http://localhost:54829/static/list.js, line 2: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:54829"
+JavaScript error: http://localhost:54829/static/list.js, line 2: ReferenceError: $ is not defined
+1653675010135	Marionette	INFO	Stopped listening on port 54857
+1653675122061	geckodriver	INFO	Listening on 127.0.0.1:54921
+1653675125116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileYL4xO7"
+1653675125580	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileYL4xO7\\search.json.mozlz4", (void 0)))
+1653675127974	Marionette	INFO	Listening on port 54945
+Read port: 54945
+1653675128067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://localhost:54920/static/list.js, line 2: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:54920"
+JavaScript error: http://localhost:54920/static/list.js, line 2: ReferenceError: $ is not defined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:54920"
+JavaScript error: http://localhost:54920/static/list.js, line 2: ReferenceError: $ is not defined
+1653675140136	Marionette	INFO	Stopped listening on port 54945
+1653675195010	geckodriver	INFO	Listening on 127.0.0.1:55005
+1653675198039	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofile4IoO1M"
+1653675198488	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofile4IoO1M\\search.json.mozlz4", (void 0)))
+1653675200701	Marionette	INFO	Listening on port 55029
+Read port: 55029
+1653675200772	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:55004"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:55004"
+1653675202477	Marionette	INFO	Stopped listening on port 55029
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
