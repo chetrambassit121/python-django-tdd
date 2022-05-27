@@ -10543,3 +10543,31 @@ Read port: 51694
 1653680027263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://chets-python-django-tdd.herokuapp.com"
 1653680038174	Marionette	INFO	Stopped listening on port 51694
+1653680254955	geckodriver	INFO	Listening on 127.0.0.1:51779
+1653680257998	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilel8TvJo"
+1653680258379	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilel8TvJo\\search.json.mozlz4", (void 0)))
+1653680260755	Marionette	INFO	Listening on port 51815
+Read port: 51815
+1653680260837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://chets-python-django-tdd.herokuapp.com"
+1653680272129	Marionette	INFO	Stopped listening on port 51815
+1653680273530	geckodriver	INFO	Listening on 127.0.0.1:51858
+1653680276553	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofile8J6VOn"
+1653680276959	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofile8J6VOn\\search.json.mozlz4", (void 0)))
+1653680279528	Marionette	INFO	Listening on port 51890
+Read port: 51890
+1653680279611	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://chets-python-django-tdd.herokuapp.com"
+1653680290404	Marionette	INFO	Stopped listening on port 51890
+1653680291085	geckodriver	INFO	Listening on 127.0.0.1:51938
+1653680294132	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilec2U0KT"
+1653680294540	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilec2U0KT\\search.json.mozlz4", (void 0)))
+1653680297684	Marionette	INFO	Listening on port 51972
+Read port: 51972
+1653680297847	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://chets-python-django-tdd.herokuapp.com"
+1653680308797	Marionette	INFO	Stopped listening on port 51972
+1653680309485	geckodriver	INFO	Listening on 127.0.0.1:52014

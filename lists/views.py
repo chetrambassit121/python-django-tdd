@@ -6,10 +6,13 @@ from lists.models import Item, List
 
 from lists.forms import ExistingListItemForm, ItemForm
 
+from django.views.decorators.csrf import csrf_protect
+
+@csrf_protect
 def home_page(request):
     return render(request, 'home.html', {'form': ItemForm()})
 
-
+@csrf_protect
 def new_list(request):
     form = ItemForm(data=request.POST)
     if form.is_valid():
@@ -19,7 +22,7 @@ def new_list(request):
     else:
         return render(request, 'home.html', {"form": form})
 
-
+@csrf_protect
 def view_list(request, list_id):
     list_ = List.objects.get(id=list_id)
     form = ExistingListItemForm(for_list=list_)
