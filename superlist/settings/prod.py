@@ -6,7 +6,7 @@ from .base import *
 SECRET_KEY=str(os.getenv('SECRET_KEY'))
 
 
-DEBUG = False   
+DEBUG = True  
 
 ALLOWED_HOSTS = ['localhost', 'localhost:8000', 'chets-python-django-tdd.herokuapp.com', 'chets-python-django-tdd.herokuapp.com/admin', '127.0.0.1']  
 
