@@ -11120,3 +11120,27 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 ###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
 
 1653765142283	geckodriver	INFO	Listening on 127.0.0.1:60920
+1653766153057	geckodriver	INFO	Listening on 127.0.0.1:61107
+1653766156114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilegTbc9K"
+1653766156646	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilegTbc9K\\search.json.mozlz4", (void 0)))
+1653766159273	Marionette	INFO	Listening on port 61132
+Read port: 61132
+1653766159391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:61106"
+1653766170155	Marionette	INFO	Stopped listening on port 61132
+1653767423251	geckodriver	INFO	Listening on 127.0.0.1:61357
+1653767426297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileYiKwoN"
+1653767426911	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileYiKwoN\\search.json.mozlz4", (void 0)))
+1653767431653	Marionette	INFO	Listening on port 61392
+Read port: 61392
+1653767431749	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost:61356"
+1653767433290	Marionette	INFO	Stopped listening on port 61392
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Reply_DiscardBrowsingContext) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][PContentChild] Error: RunMessage(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel closing: too late to send/recv, messages will be lost
+
