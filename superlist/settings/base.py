@@ -14,6 +14,8 @@ from pathlib import Path
 import os 
 import django_on_heroku
 import dj_database_url 
+from dotenv import load_dotenv
+load_dotenv()    
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -31,7 +33,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent.parent
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -39,7 +41,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'lists',
-    'deploy_tools'
+    # 'deploy_tools',
+    'accounts',
+]
+
+AUTH_USER_MODEL = 'accounts.ListUser'
+AUTHENTICATION_BACKENDS = [
+    'accounts.authentication.PasswordlessAuthenticationBackend',
 ]
 
 MIDDLEWARE = [
@@ -135,5 +143,70 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'obeythetestinggoat@gmail.com'
+# # EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
+# EMAIL_HOST_PASSWORD = str(os.getenv('EMAIL_HOST_PASSWORD'))
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+
+
+
+EMAIL_BACKEND=str(os.getenv('EMAIL_BACKEND'))
+EMAIL_USE_TLS=str(os.getenv('EMAIL_USE_TLS'))
+EMAIL_HOST=str(os.getenv('EMAIL_HOST'))
+EMAIL_HOST_USER=str(os.getenv('EMAIL_HOST_USER'))
+DEFAULT_FROM_EMAIL=str(os.getenv('DEFAULT_FROM_EMAIL'))
+EMAIL_HOST_PASSWORD=str(os.getenv('EMAIL_HOST_PASSWORD'))
+EMAIL_PORT=str(os.getenv('EMAIL_PORT'))
+
+
+
+
+
+# EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# AUTHENTICATION_BACKENDS = (
+#     # Needed to login by username in Django admin, regardless of `allauth`
+#     "django.contrib.auth.backends.ModelBackend",
+
+#     # `allauth` specific authentication methods, such as login by e-mail
+#     "allauth.account.auth_backends.AuthenticationBackend",
+# )
+
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'nyforchoice@gmail.com'
+# # EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
+# EMAIL_HOST_PASSWORD=str(os.getenv('EMAIL_HOST_PASSWORD'))
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+
+
+# EMAIL_HOST = 'imap.mail.yahoo.com'
+# EMAIL_HOST_USER = 'chetram.bassit@yahoo.com'
+# # EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASSWORD')
+# EMAIL_HOST_PASSWORD=str(os.getenv('EMAIL_HOST_PASSWORD'))
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+        },
+    },
+    'root': {'level': 'INFO'},
+}
 
 django_on_heroku.settings(locals())    # added ... required for django heroku 
