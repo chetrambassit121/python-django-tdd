@@ -4,6 +4,9 @@ from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
 import time
 
+# STAGING_SERVER=chets-python-django-tdd.herokuapp.com python manage.py test functional_tests
+
+
 MAX_WAIT = 10
 
 
@@ -27,7 +30,7 @@ class FunctionalTest(StaticLiveServerTestCase):
         self.browser = webdriver.Firefox()
         self.staging_server = os.environ.get('STAGING_SERVER')
         if self.staging_server:
-            self.live_server_url = 'https://' + staging_server
+            self.live_server_url = 'https://' + self.staging_server
 
 
     def tearDown(self):
