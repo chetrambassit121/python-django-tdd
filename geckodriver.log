@@ -12318,3 +12318,385 @@ Read port: 64073
 1653787103390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 1653787104030	Marionette	INFO	Stopped listening on port 64073
 JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 143: Error: Shutdown, aborting read-only worker requests.
+1653787483618	geckodriver	INFO	Listening on 127.0.0.1:60441
+1653787486630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilexaKcZJ"
+1653787487196	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofilexaKcZJ\\search.json.mozlz4", (void 0)))
+1653787490007	Marionette	INFO	Listening on port 60474
+Read port: 60474
+1653787490145	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653787490960	Marionette	INFO	Stopped listening on port 60474
+JavaScript error: resource://services-settings/Utils.jsm, line 153: TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1653787494074	geckodriver	INFO	Listening on 127.0.0.1:60501
+1653787497110	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileUswbV8"
+1653787498079	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileUswbV8\\search.json.mozlz4", (void 0)))
+1653787502248	Marionette	INFO	Listening on port 60535
+Read port: 60535
+1653787502343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653787503125	Marionette	INFO	Stopped listening on port 60535
+JavaScript error: resource://services-settings/Utils.jsm, line 153: TypeError: NetworkError: Network request failed
+1653787505117	geckodriver	INFO	Listening on 127.0.0.1:60564
+1653787508154	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofile0K9J0G"
+1653787509292	Marionette	INFO	Marionette enabled
+JavaScript error: chrome://browser/content/tabbrowser.js, line 5317: TypeError: this.PictureInPicture is undefined
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofile0K9J0G\\search.json.mozlz4", (void 0)))
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4103: Error: Area not yet restored
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_PreferenceUpdate) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_UpdateSharedData) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+
+###!!! [Parent][PContentParent] Error: RunMessage(msgname=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+JavaScript error: resource:///modules/CustomizableUI.jsm, line 4832: TypeError: aWindow.gNavToolbox.palette is undefined
+[Parent 35044, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 35044, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 35044, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 35044, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:725
+
+###!!! [Parent][PContentParent] Error: Send(msgname=PContent::Msg_DestroyBrowsingContextGroup) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1653787629904	geckodriver	INFO	Listening on 127.0.0.1:60619
+1653787632938	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileOhDgGh"
+1653787633467	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\chetr\\AppData\\Local\\Temp\\rust_mozprofileOhDgGh\\search.json.mozlz4", (void 0)))
+1653787637714	Marionette	INFO	Listening on port 60651
+Read port: 60651
+1653787637861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1653787638625	Marionette	INFO	Stopped listening on port 60651
+JavaScript error: resource://services-settings/Utils.jsm, line 153: TypeError: NetworkError: Network request failed
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
